@@ -32,8 +32,8 @@ const Hero = () => {
         <Button>Get Started, It's Free</Button>
       </Link>
       <div className="-mt-10 -w-full -flex -justify-center ">
-         <img src="/public/assets/laptop.png"  className="-w-full -absolute " />
-         <img src="/public/assets/internalPhoto.png"  className="-w-full sm:-px-14 -px-8 lg:-pt-32 md:-pt-24 sm:-pt-16 -pt-10" />
+         <img src="/assets/laptop.png"  className="-w-full -absolute " />
+         <img src="/assets/internalPhoto.png"  className="-w-full sm:-px-14 -px-8 lg:-pt-32 md:-pt-24 sm:-pt-16 -pt-10" />
 
       </div>
       

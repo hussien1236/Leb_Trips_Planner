@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io";
 const InfoSection = ({trip}) => {
   return (
     <div>
-        <img src='/public/assets/Lebanon.jpg'
+        <img src='/assets/Lebanon.jpg'
         className='sm:-h-[300px] -h-[200px] -w-full -rounded-3xl'></img>
         <div className='-my-5 -flex -flex-col -gap-2'>
             <h2 className='-font-bold -text-2xl'>{trip?.userSelection?.place}</h2>
