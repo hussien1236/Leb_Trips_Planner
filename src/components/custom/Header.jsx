@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <header className='-px-10 -py-5 -shadow-sm '>
         <nav className='-flex -justify-between -items-center '>
-                <img src="/src/assets/Logo.png" alt="logo" width={200}/>
+                <img src="/public/assets/Logo.png" alt="logo" width={200}/>
                 <div >
                {user?<div className='-flex -gap-5 -items-center'>
                 <Popover>
@@ -93,7 +93,7 @@ const Header = () => {
                <Dialog open={openDialog} setOpenDialog={setOpenDialog}>
                <DialogContent  className="-bg-white">
                  <DialogHeader>
-                   <DialogTitle><img src="/src/assets/Logo.png" alt="logo" width={150}/></DialogTitle>
+                   <DialogTitle><img src="/public/assets/Logo.png" alt="logo" width={150}/></DialogTitle>
                    <DialogDescription className="-flex -flex-col -items-center -gap-3">      
                      <h2 className="-text-xl -font-bold">Sign In With Google</h2>
                      <p className="-text-slate-500">Sign in to the App with Google authentication securely</p>

@@ -164,7 +164,7 @@ const Index = () => {
     <Dialog open={openDialog}>
   <DialogContent  className="-bg-white">
     <DialogHeader>
-      <DialogTitle><img src="/src/assets/Logo.png" alt="logo" width={150}/></DialogTitle>
+      <DialogTitle><img src="/public/assets/Logo.png" alt="logo" width={150}/></DialogTitle>
       <DialogDescription className="-flex -flex-col -items-center -gap-3">      
         <h2 className="-text-xl">Sign In With Google</h2>
         <p className="-text-slate-500">Sign in to the App with Google authentication securely</p>
