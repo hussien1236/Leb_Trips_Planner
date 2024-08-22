@@ -21,8 +21,6 @@ import {
 
 
 export default function ComboboxDemo({places, onchangefn,loading}) {
-  console.log("the places were sent :"+ places);
-  console.log( places);
   const [open, setOpen] = React.useState(false)
   const [value, setValue] = React.useState("")
 

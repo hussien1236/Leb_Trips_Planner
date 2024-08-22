@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <header className='-px-10 -py-5 -shadow-sm '>
         <nav className='-flex -justify-between -items-center '>
-                <img src="/assets/logo.png" alt="logo" width={200}/>
+                <img src="/assets/logo.png" alt="logo" className="md:-w-[200px] sm:-w-[150px] -w-[100px]"/>
                 <div >
                {user?<div className='-flex -gap-5 -items-center'>
                 <Popover>
